@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px;
+    flex-direction: column;
+}
+
+.inputs-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 630px;
+    margin: auto;
+}
+
+.university-cards-wrapper{
+    padding: 30px;
+    margin-top: 20px;
+
+    border-top: 1px solid #c5c5c5;
+    justify-content: center;
+}
+
+.university-cards-positioner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

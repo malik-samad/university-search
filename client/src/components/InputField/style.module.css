@@ -1,0 +1,50 @@
+
+
+.search-input{
+    padding: 10px 15px;
+    width: 250px;
+    border-radius: 50px;
+    border: 1px solid #c5c5c5;
+    box-shadow: lightgrey 1px 3px 3px;
+}
+
+.search-input:hover{
+    scale: 1.01;
+}
+
+.search-input:focus{
+    scale: 1.01;
+    width: 300px;
+    border: 1px solid #949494;
+}
+
+/* The animation code */
+@keyframes widthFrames {
+    from {width: 240px; max-height: 10px;}
+    to {background-color: 310px; max-height: 250px;}
+}
+
+.input-suggestions{
+    background-color: white;
+    position: absolute;
+    margin-left: 10px;
+    max-height: 250px;
+    border: 1px solid #c5c5c5;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: lightgrey 1px 3px 2px;
+    animation-name: widthFrames;
+    animation-duration: .2s;
+    overflow-y: auto;
+}
+
+.suggestion-item{
+    padding:3px 5px;
+    cursor:pointer;
+}
+.suggestion-item:hover{
+    background-color: #dadada;
+}
+
+.suggestion-item:active{
+    background-color: #c7c7c7;
+}

@@ -1,0 +1,26 @@
+.university-card{
+    margin: 5px;
+    border: 1px solid #c5c5c5;
+    border-radius: 6px;
+    box-shadow: lightgrey 1px 2px 2px;
+    width: 350px;
+    height: 380px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.university-card:hover{
+    scale: 1.01;
+}
+.row{
+    padding: 5px;
+}
+.row:hover{
+    scale: 1.01;
+}
+.row:not(:last-of-type){
+    border-bottom: 1px solid #c5c5c5;
+}
+
+/* .row:last-of-type{
+    border-bottom: 1px solid #ff0000;
+} */
